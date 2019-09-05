@@ -14,6 +14,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Slick slider -->
     <link href="assets/css/slick.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/commonstyle.css">
     <!-- Theme color -->
     <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
 
@@ -22,10 +23,10 @@
 
     <!-- Fonts -->
 
-    <!-- Open Sans for body font -->
-<!-- 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+    Open Sans for body font
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
 	Montserrat for title
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     
     <link rel="stylesheet" href="common/layout.css">
 
@@ -92,7 +93,7 @@
 
 							<h1>HELLO! WELCOME TO XdHacks</h1>
 							<h2>跨界创客马拉松，创造不一样的世界</h2>
-							<p class="mu-event-date-line">19 - 20 October, 2019. Shanghai, China</p>
+							<p class="mu-event-date-line">2019年 10月 19 - 20日.  中 国  ,  上 海.</p>
 
 							<div class="mu-event-counter-area">
 								<div id="mu-event-counter">
@@ -209,7 +210,7 @@
 						<div class="col-md-12">
 							<div class="mu-video-area">
 								<h2 >Watch XdHacks</h2><br/><br/>
-								<h3 style="color: white">即将开放</h3>
+								<!-- <h3 style="color: white">即将开放</h3> -->
 								<a class="mu-video-play-btn" href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
 							</div>
 						</div>
@@ -221,7 +222,10 @@
 			<div class="mu-video-content">
 				<div class="mu-video-iframe-area">
 					<a class="mu-video-close-btn" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-					<iframe width="854" height="480" src="" frameborder="0" allowfullscreen></iframe>
+					<iframe width="854" height="480" src="assets/mp4/file.mp4" frameborder="0" allowfullscreen>
+						
+						<video 
+					</iframe>
 				</div>
 			</div>
 			<!-- End Video content -->
@@ -311,7 +315,7 @@
 					<div class="process-timeline draggable ui-widget-content">
 						<div id="draggable">
 							<div class="process-body">
-								<div class="process-row">
+								<div class="process-row" style='width:30%'>
 									<div class="process-time">
 										<div class="time-con">
 											<span class="bgcolor red"></span>
@@ -329,7 +333,7 @@
 										</p>
 									</div>
 								</div>
-								<div class="process-row ">
+								<div class="process-row " style='width:15%'>
 									<div class="process-time">
 										<div class="time-con">
 											<span class="bgcolor blue"></span>
@@ -347,7 +351,7 @@
 										</p>
 									</div>
 								</div>
-								<div class="process-row ">
+								<div class="process-row " style='width:20%'>
 									<div class="process-time">
 										<div class="time-con">
 											<span class="bgcolor red"></span>
@@ -365,7 +369,7 @@
 										</p>
 									</div>
 								</div>
-								<div class="process-row ">
+								<div class="process-row " style='width:12%'>
 									<div class="process-time">
 										<div class="time-con">
 											<span class="bgcolor orange"></span>
@@ -383,7 +387,7 @@
 										</p>
 									</div>
 								</div>
-								<div class="process-row ">
+								<div class="process-row " style='width:18%'>
 									<div class="process-time">
 										<div class="time-con">
 											<span class="bgcolor red"></span>
@@ -395,7 +399,7 @@
 										
 									</div>
 									<div class="process-content">
-										<h2>10月19日之后</h2>
+										<h2>10月20日之后</h2>
 										<p>
 											 比赛后续，选手项目更多价值产生
 										</p>
@@ -448,6 +452,14 @@
 								<div class="tab-content mu-schedule-content">
 								    <div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day">
 								    	<ul>
+											
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">8:00</p>
+													<h3>入场</h3>
+												</div>
+											</li>
+											
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<p class="mu-event-time">9:00 - 10:00</p>
@@ -472,14 +484,14 @@
 								    			<div class="mu-single-event">
 								    				
 								    				<p class="mu-event-time">15:00 - 15:45 </p>
-								    				<h3>第一轮演讲开始</h3>
+								    				<h3>第一轮讲座开始</h3>
 								    				<span>两场讲座同时进行</span>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<p class="mu-event-time">16:00 - 16:45</p>
-								    				<h3>第二轮演讲开始</h3>
+								    				<h3>第二轮讲座开始</h3>
 					  								<span>两场讲座同时进行</span>
 								    			</div>
 								    		</li>
@@ -677,42 +689,22 @@
 
 									<!-- Start single speaker -->
 									<div class="mu-single-speakers">
-										<img src="assets/images/Parsa.webp" alt="speaker img">
+										<img src="assets/images/gepeiming.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
-										<div class="name" style="font-weight: bold;text-align: center;">Parsa Alamzadeh</div>
+										<div class="name" style="font-weight: bold;text-align: center;">葛培明</div>
 										<div class='title' style="text-align: left;font-size: 11px;margin-top: 10px;">
-										·DTALK机器学习专题负责人<br>
-										·浙江大学CCNT Lab做助理研究<br>
-										·专注在图像和物体识别领域<br>
-										·加拿大Simon Fraser大学和浙江大学计算机系双学位<br>
+										·现任复兴科技创新部 CTO<br>
+										·西南交大计算智能博士<br>
+										·同济大学博士后<br>
+										·早在2001年就开始AI的研究，同年发表了第一篇神经网络的论文<br>
+										·在柯达，微软，平安等知名公司从事多个图像，自然语言理解等人工智能项目的研发和管理工作<br>
 										</div>
 										</div>
 									</div>
 									<!-- End single speaker -->
 
 								
-						
-
-
-						
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/Morten Dahl.webp" alt="speaker img">
-										<div class="mu-single-speakers-info">
-										<div class="name" style="font-weight: bold;text-align: center;">Morten Dahl</div>
-										<div class='title' style="text-align: left;font-size: 11px;margin-top: 10px;">
-										·Dropout的联合创始人及研究负责人<br>
-										·TF-Encrypted技术的核心开发负责人<br>
-										·在Federating learning和Secure computations领域有多年丰富经验<br>
-									</div>
-
-										</div>
-									</div>
-									<!-- End single speaker -->
-								</div>
-							</div>
-							<!-- End Speakers Content -->
+					
  
 			</div>
 		</section>
@@ -745,8 +737,12 @@
 							<div class="mu-sponsors-content">
 								<div class="row">
 								<div class="mu-title-area">
-								<h2 class="mu-title">合作商家</h2><br><br>
+								<h2 class="mu-title">合作企业</h2><br><br>
 								<text class="mu-title">多家顶级科技企业参与，敬请期待</text><br><br>
+								<button id="main" onclick="clickmain()" type="button" class="button gray rarrow" style='line-height: 30px;'>成为我们的合作企业</button>
+								<div id="qrcode"  onclick="clickqrcode()">
+								    <img id="image" width="100%" height="100%" src="assets/images/sherry.jpg">
+								</div>
 								
 							</div>
 
@@ -798,11 +794,7 @@
 							          </div>
 							          <div id="collapseTwo" class="panel-collapse collapse">
 							            <div class="pane1-body" style="text-align: left;padding: 8px;border-top: solid 1px #EE3268">
-							              了解产品开发、喜欢市场营销、或拥有设计基础？<br>
-							              学过计算机的编程原理、拥有程序开发的经验热情？<br>
-							              有金融、时尚科技、媒体、零售等领域的相关知识或工作经验？<br>
-							              在校学生，但是热爱创新、勇于挑战？<br>
-							              想要体验团队集体协作、超越脑力极限的快乐？<br>
+							              XdHacks的宗旨旨在“跨界”，讲来自于不同领域的专业人士、学生以及企业聚集在一起，通过运用专有知识和专场来解决现实问题——无论你是计算机开发人员、工程师、设计师、产品经理，亦或是单纯的技术爱好者，我们都欢迎热血的你加入到XdHacks的队伍中来，和我们一起创造和挑战
 							            </div>
 							          </div>
 							        </div>
@@ -847,7 +839,7 @@
 							          </div>
 							          <div id="collapseFive" class="panel-collapse collapse">
 							            <div class="panel-body">
-							              报名成功后请耐心等待行政组的小哥哥拉你进入预备群~群内统一收集个人简历+开放性问题，进行选手二次筛选；通过者将于10月6日前收到确认邮件和单独信息。
+							              申请筛选将于7.1~10.5期间滚动进行，报名成功的申请人将收到来自xdhacks团队的确认电子邮件。
 							            </div>
 							          </div>
 							        </div>
@@ -1020,7 +1012,8 @@
 
 					<div class="col-md-6">
 						<div class="mu-venue-map">
-							<img src="assets/images/赛场地图.png"  mode="aspectFit" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<!-- <img src="assets/images/赛场地图.png"  mode="aspectFit" frameborder="0" style="border:0" allowfullscreen> -->
+							 <div style="width:697px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
 						</div>
 					</div>
 
@@ -1028,7 +1021,7 @@
 						<div class="mu-venue-address">
 							<h2>赛程地图 <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
 							
-							<h4>上海市杨浦区隆昌路619号城市概念10号楼B座</h4>
+							<h4>上海市,中国</h4>
 							
 						</div>
 					</div>
@@ -1044,7 +1037,7 @@
 			
 			
 	<!-- Start footer -->
-	<footer id="mu-footer" role="contentinfo">
+<!-- 	<footer id="mu-footer" role="contentinfo">
 			<div class="container">
 				<div class="mu-footer-area">
 					<div class="mu-footer-top">
@@ -1061,6 +1054,39 @@
 				</div>
 			</div>
 
+	</footer> -->
+	<footer id="mu-footer" role="contentinfo">
+	<div class="footer">
+		<div class="footerinner">
+			<ul class="share">
+				<li>
+					<img class="weibo_icon" src="assets/images/share/weibo.png" alt="">
+				</li>
+				<li>
+					<img class="qq_icon" src="assets/images/share/bilibili2.png" alt="">
+				</li>
+				<li>
+					<img class="twitter_icon" src="assets/images/share/zhihu.png" alt="">
+				</li>
+				<li>
+					<img class="wechat_icon" src="assets/images/share/wechat.png" alt="">
+				</li>
+			</ul>
+			<div class="code_wrap">
+				<ul class="code">
+					<li><img class="weibo" src="assets/images/sharecode/weibo2.png" alt=""></li>
+					<li><img class="qq" src="assets/images/sharecode/bilibili2.png" alt=""></li>
+					<li><img class="twitter" src="assets/images/sharecode/zhihu2.png" alt=""></li>
+					<li><img class="wechat" src="assets/images/sharecode/wechat2.png" alt=""></li>
+				</ul>
+			</div>
+			<div class="footerinfo">
+				<div class="footerinfoTop">
+					<p>&copy; Copyright  XdHacks . All right reserved.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 	</footer>
 	<!-- End footer -->
 
@@ -1082,7 +1108,54 @@
 	
     <!-- Custom js -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
+<script type="text/javascript" src="new_file.js"></script>
+<script>
+/*底部二维码*/
 
+$(".weibo_icon").hover(function(){
+	$(".weibo").fadeIn(500);
+	$(".qq,.twitter,.wechat").fadeOut(0);
+	$(".code_wrap").css("z-index",200);
+},function(){
+	$(".weibo").fadeOut(0);
+	$(".code_wrap").css("z-index",50);
+});
+
+$(".qq_icon").hover(function(){
+	$(".qq").fadeIn(500);
+	$(".weibo,.twitter,.wechat").fadeOut(0);
+	$(".code_wrap").css("z-index",200);
+},function(){
+	$(".qq").fadeOut(0);
+	$(".code_wrap").css("z-index",50);
+});
+$(".twitter_icon").hover(function(){
+	$(".twitter").fadeIn(500);
+	$(".weibo,.qq,.wechat").fadeOut(0);
+	$(".code_wrap").css("z-index",200);
+},function(){
+	$(".twitter").fadeOut(0);
+	$(".code_wrap").css("z-index",50);
+});
+$(".wechat_icon").hover(function(){
+	$(".wechat").fadeIn(500);
+	$(".weibo,.qq,.twitter").fadeOut(0);
+	$(".code_wrap").css("z-index",200);
+},function(){
+	$(".wechat").fadeOut(0);
+	$(".code_wrap").css("z-index",50);
+});
+$(".weibo,.twitter,.wechat").hover(function(){
+	$(this).fadeIn(0);
+	$(".code_wrap").css("z-index",200);
+},function(){
+	$(this).fadeOut(500);
+	$(".code_wrap").css("z-index",50);
+});
+
+</script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=aa8Ywp6un17pvLrD9YLwvfeOzfKgZGL2"></script>
+<script type="text/javascript" src="assets/js/map.js"></script>
 	  
     
   </body>
