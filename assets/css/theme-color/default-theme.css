@@ -6,10 +6,10 @@ Author URI : http://www.markups.io/
 
 .mu-hero-overlay,
 .mu-video-overlay {
-	background-color: #EE3268;/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #64b3f4, #EE3268);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #64b3f4, #EE3268); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    /* Modified by @MRuihoo */
+	background-color: #C21E56;/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #64b3f4, #C21E56);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #64b3f4, #C21E56); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .mu-primary-btn:hover,
@@ -34,6 +34,8 @@ Author URI : http://www.markups.io/
 .mu-navbar .mu-menu li a:hover,
 .mu-navbar .mu-menu li a:focus,
 .mu-single-event .mu-event-time {
+	/* Modified by @MRuihoo */
+	/*color: #C21E56;*/
 	color: #EE3268;
 }
 
@@ -52,36 +54,42 @@ Author URI : http://www.markups.io/
 .mu-schedule-menu li.active a,
 .mu-schedule-menu li.active a:hover,
 .mu-schedule-menu li.active a:focus {
-	background-color: #EE3268;
+	/* Modified by @MRuihoo */
+	background-color: #C21E56;
 }
 
 .mu-social-media a:hover,
 .mu-social-media a:focus {
-	border: 1px solid #EE3268;
-	color: #EE3268;
+	/* Modified by @MRuihoo */
+	border: 1px solid #C21E56;
+	color: #C21E56;
 }
 
 .mu-contact-form .form-control:focus,
 .mu-schedule-menu li a {
-	border: 1px solid #EE3268;    
-} 
+	/* Modified by @MRuihoo */
+	border: 1px solid #C21E56;
+}
 
 .mu-send-msg-btn,
 .mu-send-msg-btn:focus,
 .mu-register-btn:hover,
 .mu-register-btn:focus,
 .mu-popular-price .mu-register-btn {
-	border: 1px solid #EE3268;
-	background-color: #EE3268;
+	/* Modified by @MRuihoo */
+	border: 1px solid #C21E56;
+	background-color: #C21E56;
 }
 
 .mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
-	border-top-color: #EE3268;
+	/* Modified by @MRuihoo */
+	border-top-color: #C21E56;
 
 }
 
 .mu-reg-submit-btn:hover,
 .mu-reg-submit-btn:focus {
-	background-color: #EE3268;
-	border: 2px solid #EE3268;
+	/* Modified by @MRuihoo */
+	background-color: #C21E56;
+	border: 2px solid #C21E56;
 }
