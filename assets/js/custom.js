@@ -114,8 +114,14 @@
         event.preventDefault();
         
         $('.mu-video-iframe-area').addClass('mu-video-iframe-display');
-       
-    });
+
+        // Modified by @MRuihoo
+        let video_iframe = document.getElementById('mu-video-iframe');
+        let video = video_iframe.contentDocument.getElementsByTagName('video')[0];
+        video.currentTime = 0;
+        video.play();
+
+   });
    
     // when click the close btn
 
@@ -133,7 +139,10 @@
 
     $('.mu-video-close-btn').click(function(){
 
-        $('.mu-video-iframe').attr('src', $('.mu-video-iframe').attr('src'));
+    	// Modified by @MRuihoo
+		let video_iframe = document.getElementById('mu-video-iframe');
+		let video = video_iframe.contentDocument.getElementsByTagName('video')[0];
+		video.pause();
 
     });
 
